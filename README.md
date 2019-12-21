@@ -14,10 +14,30 @@ Usage
 -----
 
 Add 'django_env_settings' to the project to your INSTALLED_APPS.
+    
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'django_celery_tools',
+    'django_env_settings',
+    'widget_tweaks',
+    'gemserver',
+    'storegateway',
+    'storeindexer',
+    'storebrowser',
+]
+```
 
 Add this line to the end of your Django settings.py file:
 
-    from django_env_settings import *
+```python
+from django_env_settings import *
+```
 
 Create a proto settings_skeleton.py file. This file will be generated at the same level as manage.py. Edit this file
 content and copy to this file the variables you want to override for specific environments. This file will be the
