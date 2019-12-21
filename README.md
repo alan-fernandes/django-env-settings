@@ -23,13 +23,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_celery_tools',
     'django_env_settings',
-    'widget_tweaks',
-    'gemserver',
-    'storegateway',
-    'storeindexer',
-    'storebrowser',
 ]
 ```
 
