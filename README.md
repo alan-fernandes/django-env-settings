@@ -8,7 +8,7 @@ name in the source folder.
 Installation
 ------------
 
-    pip install django-env-settings
+    pip install git+https://github.com/gustavo80br/django-env-settings.git
 
 Usage
 -----
